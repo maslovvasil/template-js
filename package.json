@@ -2,7 +2,7 @@
   "name": "template.js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/template.js",
+  "homepage": "https://github.com/maslovvasil/template.js",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /template.js/"
