@@ -1,22 +1,22 @@
 {
-  "name": "template.js",
+  "name": "template-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/maslovvasil/template.js",
+  "homepage": "https://github.com/maslovvasil/template-js",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /template.js/"
+    "build": "parcel build src/*.html --public-url /template-js/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maslovvasil/template.js.git"
+    "url": "git+https://github.com/maslovvasil/template-js.git"
   },
   "keywords": [],
   "author": "VM",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maslovvasil/template.js"
+    "url": "https://github.com/maslovvasil/template-js"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
