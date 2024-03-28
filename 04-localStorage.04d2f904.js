@@ -1,0 +1,2 @@
+!function(){function o(o){return o&&o.__esModule?o.default:o}var e={};Object.defineProperty(e,"__esModule",{value:!0}),e.default=function(o){return o&&o.constructor===Symbol?"symbol":typeof o},console.log(333);var n={name:"Mango",age:13};console.log(n),console.log(JSON.stringify(n)),console.log(o(e)(JSON.stringify(n)));var l='{"name": "Mango", "age": 13}';console.log(l),console.log(o(e)(l));var r=JSON.parse(l);console.log(r),console.log(void 0===r?"undefined":o(e)(r))}();
+//# sourceMappingURL=04-localStorage.04d2f904.js.map
