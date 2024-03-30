@@ -1,0 +1,2 @@
+!function(){console.log(888777);var o=document.querySelector(".js-notification"),i=null;function t(){o.classList.remove("is-visible")}o.addEventListener("click",(function(){console.log("click on the button notification "),t(),clearTimeout(i)})),o.classList.add("is-visible"),i=setTimeout((function(){console.log("Close the alert automatically"),t()}),3e3)}();
+//# sourceMappingURL=05-assynchronicity.852f41c7.js.map

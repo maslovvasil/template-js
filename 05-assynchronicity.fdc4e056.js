@@ -1,0 +1,2 @@
+console.log(888777);const o=document.querySelector(".js-notification");let e=null;function t(){o.classList.remove("is-visible")}o.addEventListener("click",(function(){console.log("click on the button notification "),t(),clearTimeout(e)})),o.classList.add("is-visible"),e=setTimeout((()=>{console.log("Close the alert automatically"),t()}),3e3);
+//# sourceMappingURL=05-assynchronicity.fdc4e056.js.map
