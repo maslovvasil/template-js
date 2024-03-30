@@ -1,0 +1,17 @@
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+   margin-right: 80px;     /* Зазначте відступ між полями */
+  
+  text-align: center;
+}
+
+/* При потребі збільшуйте ширину спанів .value та .label, якщо вміст збільшується */
+.value, .label {
+  width: 60px; /* Наприклад */
+  font-size: 33px;
+}
