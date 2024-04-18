@@ -13,7 +13,10 @@ startButton.addEventListener('click', startSwitchColorBody)
 stopButton.addEventListener('click', stopSwitchColorBody)
 
 //
-function startSwitchColorBody () {
+function startSwitchColorBody() {
+  if (timerId) {
+  return
+  }
   return timerId = setInterval(() => {
     let colorBody = getRandomHexColor()
     body.style.background = colorBody

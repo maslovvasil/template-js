@@ -1,0 +1,30 @@
+li {
+list-style-type: none;
+}
+.weather {
+  width: 1280px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.search-form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-input {
+  margin-left: auto;
+  margin-right: auto;
+}
+.weahter-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+/* .js-search-input {
+}
+.search-btn {
+} */

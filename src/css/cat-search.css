@@ -1,0 +1,58 @@
+  .is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.breed-select {
+    /* display: none; */
+    /* text-align: center; */
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.cat-info {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #e5f3f2;
+    border-radius: 8px;
+    border: 1px solid #074465;
+}
+
+.box-img {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+     /* width: 500px; */
+}
+
+.box {
+    width: 500px;
+}
+
+.loader{
+font-size: 15px;
+color: green;
+}
+
+.error {
+font-size: 15px;
+color: red;
+}
